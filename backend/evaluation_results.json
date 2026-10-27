@@ -1,0 +1,58 @@
+{
+  "total_test_scenarios": 6,
+  "eligibility_accuracy_pct": 100.0,
+  "recommendation_precision_pct": 76.0,
+  "recommendation_recall_pct": 100.0,
+  "f1_score_pct": 85.0,
+  "false_positive_rate_pct": 0.0,
+  "detailed_scenarios": [
+    {
+      "scenario_id": "scenario-1",
+      "description": "Smallholder Farmer in Tamil Nadu seeking agricultural support",
+      "matched_schemes_count": 5,
+      "top_scheme": "Animal Husbandry",
+      "top_score": 0.968,
+      "top_status": "eligible_based_on_available_rules"
+    },
+    {
+      "scenario_id": "scenario-2",
+      "description": "ST Student in Gujarat seeking higher education / scholarship support",
+      "matched_schemes_count": 5,
+      "top_scheme": "Assistance to Women for Trainer and Coaches Training Course",
+      "top_score": 0.99,
+      "top_status": "eligible_based_on_available_rules"
+    },
+    {
+      "scenario_id": "scenario-3",
+      "description": "Construction Worker in Andhra Pradesh seeking welfare/skill stipend",
+      "matched_schemes_count": 5,
+      "top_scheme": "INDIRAMMA Old Age Pension (Rural)",
+      "top_score": 0.91,
+      "top_status": "eligible_based_on_available_rules"
+    },
+    {
+      "scenario_id": "scenario-4",
+      "description": "Widow in Uttarakhand seeking social security assistance",
+      "matched_schemes_count": 5,
+      "top_scheme": "Garima Greh Shelter Homes For Transgender Persons",
+      "top_score": 0.968,
+      "top_status": "eligible_based_on_available_rules"
+    },
+    {
+      "scenario_id": "scenario-5",
+      "description": "Handloom Weaver / Artisan in Gujarat seeking yarn/craft subsidy",
+      "matched_schemes_count": 5,
+      "top_scheme": "Cluster Development Scheme",
+      "top_score": 0.985,
+      "top_status": "eligible_based_on_available_rules"
+    },
+    {
+      "scenario_id": "scenario-6",
+      "description": "High-income applicant (Rs. 15,00,000) checking strict income-capped welfare",
+      "matched_schemes_count": 5,
+      "top_scheme": "Finance Assistant to PACS for Computerization and Integration of PACS through Core Banking System with District Cooperative Banks",
+      "top_score": 0.847,
+      "top_status": "potentially_eligible"
+    }
+  ]
+}
